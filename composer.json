@@ -1,5 +1,5 @@
 {
-    "name": "sunspikes/php-ratelimiter",
+    "name": "jeijei4/php-ratelimiter",
     "description": "A framework agnostic rate limiter for PHP",
     "keywords": ["rate limit", "throttle", "throttling", "ratelimit", "php-ratelimiter", "Krishnaprasad MG", "sunspikes"],
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=8.1",
         "desarrolla2/cache": "~2.0"
     },
     "require-dev": {
@@ -29,7 +29,7 @@
         }
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "stable"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
